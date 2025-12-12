@@ -4,3 +4,10 @@
 *{
     box-sizing: border-box;
 }
+body{
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 17px;
+}
