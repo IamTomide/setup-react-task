@@ -1,0 +1,6 @@
+@import url(normalize.css);
+@import url(variables.css);
+
+*{
+    box-sizing: border-box;
+}
