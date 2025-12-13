@@ -34,7 +34,7 @@
     vertical-align: middle;
     text-transform: capitalize;
     margin-top: -5.5px;
-    color: var(--secondary-color);
+    color: var(--text-color-primary);
     margin-bottom: 0;
 }
 .welcome__info p:last-of-type{
@@ -45,6 +45,7 @@
     margin: 8.5px 0;
 }
 .welcome img{
+    z-index: 2;
     height: 670px;
 }
 .welcome img::before{
@@ -57,31 +58,6 @@
   left: -59px;
   transform: translate(-50%, -50%); 
 }
-.introduction__book{
-    position: absolute;
-    top: 458.05px;
-    left: 94.64px;
-}
-.introduction__arrow{
-    position: absolute;
-    top: 443.81px;
-    left: 551.86px;
-}
-.introduction__categories{
-    position: absolute;
-    top: 624px;
-    padding: 0 23px;
-    text-transform: uppercase;
-    left: 882.34px;
-    color: var(--primary-color);
-    background-color: #E9E2FF;
-    border-radius: 5px;
-    font-size: 14px;
-    line-height: 32px;
-    letter-spacing: 0%;
-    text-align: center;
-    vertical-align: middle;
-}
 .introduction__instructors{
     position: absolute;
     top: 402.2px;
@@ -91,6 +67,7 @@
     border-radius: 10px;
     color: var(--primary-color);
     background-color: var(--background-color);
+    z-index: 3;
 }
 .introduction__instructors p{
     font-size: 30px;
@@ -98,6 +75,9 @@
     letter-spacing: 0%;
     vertical-align: middle;
     margin-bottom: 0;
+    color: var(--primary-color);
+}
+.introduction__instructors span{
     color: var(--secondary-color);
 }
 .introduction__instructors img{
