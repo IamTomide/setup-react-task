@@ -5,7 +5,6 @@ button{
     align-items: center;
     font-family: Sora;
     font-weight: 400;
-    font-style: Regular;
     font-size: 15px;
     height: 58px;
     letter-spacing: -0.15px;
@@ -21,6 +20,7 @@ button{
 button span:first-child{
     font-size: 15px;
     padding-left: 25px;
+    text-transform: capitalize;
 }
 button span:last-child{
     letter-spacing: -0.15px;

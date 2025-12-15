@@ -3,33 +3,7 @@
     margin: 0 auto;
     margin-top: -32px;
     padding: 0 15px;
-}
-.category__title{
-    padding: 0 23px;
-    text-transform: uppercase;
-    color: var(--primary-color);
-    background-color: #E9E2FF;
-    border-radius: 5px;
-    font-size: 14px;
-    line-height: 32px;
-    letter-spacing: 0%;
     text-align: center;
-    vertical-align: middle;
-    width: 137.32px;
-    margin: 0 auto;
-}
-.category h4{
-    font-family: "Epilogue", sans-serif;
-    font-weight: 700;
-    font-style: Bold;
-    font-size: 45px;
-    line-height: 58.5px;
-    letter-spacing: 0%;
-    text-align: center;
-    vertical-align: middle;
-    text-transform: capitalize;
-    margin-top: 25px;
-    color: var(--text-color-primary);
 }
 .category__list{
     margin-top: 70px;

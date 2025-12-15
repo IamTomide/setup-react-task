@@ -1,4 +1,5 @@
 import Category from "../components/Category/CategorySection";
+import TopCourses from "../components/CoursesSection/courses";
 import PageHeader from "../components/PageHeader/PageHeader";
 import Welcome from "../components/WelcomeSection/Welcome";
 
@@ -8,6 +9,7 @@ const LandingPage = () => {
          <PageHeader />
          <Welcome />
          <Category />
+         <TopCourses />
         </>
      );
 }

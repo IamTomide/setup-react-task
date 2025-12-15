@@ -1,16 +1,15 @@
 import CategoryCard from './CategoryCard';
 import './categorySection.css'
 import { categories } from '../../data/categories'
+import Title from '../title/Title';
 
 const Category = () => {
     return ( 
         <section className="category">
-            <p className='category__title'>categories</p>
+            <Title title="categories"/>
             <h4>Browse by categories</h4>
             <ul className="category__list">
                 {categories.map((category) => {
-                    // const Icon = category.Icon;
-
                     return (
                         <CategoryCard 
                             key={category.id}

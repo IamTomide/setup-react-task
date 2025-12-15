@@ -10,4 +10,17 @@ body{
     font-weight: 400;
     font-size: 17px;
     line-height: 17px;
+    max-width: 100vw;
+}
+h4{
+    font-family: "Epilogue", sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 45px;
+    line-height: 58.5px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    text-transform: capitalize;
+    margin-top: 25px;
+    color: var(--text-color-primary);
 }

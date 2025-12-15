@@ -1,0 +1,158 @@
+.courses{
+    margin-top: 155px;
+    background-image: url(../../assets/images/top-courses-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.top__courses{
+    width: 1350px;
+    margin: 0 auto;
+    position: relative;
+    padding: 120px 15px;
+}
+.top__courses__info{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 25px;
+}
+.top__courses__info h4{
+    flex-basis: 55%;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.courses__list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 24px;
+    row-gap: 30px;
+    padding: 0;
+    margin-top: 64px;
+}
+.course__card{
+    list-style-type: none;
+    border: dashed 1PX #704FE6;
+    padding: 21px 19px 0 21px;
+    border-radius: 5px;
+    background-color: #F4F5F8;
+}
+.course__img{
+    width: 381px;
+    border-radius: 5px;
+}
+.course__card__category{
+    position: relative;
+}
+.course__card__category p{
+    position: absolute;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    bottom: 10px;
+    padding: 13.5px 29.8px 14.5px 30px;
+    color: #ffffff;
+    background-color: var(--secondary-color);
+    left: 20px;
+    border-radius: 5px;
+}
+.course__details{
+    background: url(../../assets/images/course-detail-logo.png) no-repeat;
+    background-position: center top;
+    margin-top: 23px;
+}
+.course__details__rating__price, .course__details__rating__price div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.course__details__rating{
+    font-family: "Epilogue", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    color: #4D5756;
+    padding: 0px 4.68px;
+}
+.course__details__price{
+    font-family: "Epilogue", sans-serif;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 14px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    text-transform: capitalize;
+    color: var(--primary-color);
+}
+h6 {
+    margin-top: 9.5px;
+    font-family: "Epilogue", sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    text-transform: capitalize;
+    color: var(--text-color-primary);
+    margin: 11px 0 0;
+}
+.course__lesson__info{
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 9px 19.9px 9px 17px;
+    margin-top: 23.5px;
+}
+.course__lesson__info span{
+    display: inline-flex;
+    align-items: center;
+    gap: 6.7px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    text-transform: capitalize;
+
+}
+.course__instructor{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 30px 0;
+}
+.course__instructor div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.course__instructor__img{
+    border: solid 2px var(--primary-color);
+    border-radius: 22px;
+}
+.course__instructor__name{
+    font-family: "Epilogue", sans-serif;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 14px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+
+}
+.course__instructor a{
+    text-decoration: none;
+    background-color: var(--primary-color);
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 0 32px;
+    line-height: 40px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    border-radius: 50px;
+}
