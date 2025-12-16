@@ -1,4 +1,4 @@
-import ratingSymbol from '../../assets/images/symbol.png'
+import ratingSymbol from '../../assets/images/Symbol.png'
 import IconNote from '../../assets/icons/note.svg?react'
 import IconClock from '../../assets/icons/clock.svg?react'
 import IconPerson from '../../assets/icons/person.svg?react'
