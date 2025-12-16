@@ -1,4 +1,4 @@
-import Button from "../button/Button.jsx";
+import Button from "../../components/button/Button";
 import studentImg from '../../assets/images/student.jpg'
 
 const Introduction = () => {
