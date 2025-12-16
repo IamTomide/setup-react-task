@@ -1,7 +1,7 @@
 import './courses.css'
 import { courses } from '../../data/courses'
 import CourseCard from './CourseCard'
-import CourseHeader from './courseHeader'
+import CourseHeader from './CourseHeader'
 
 const TopCourses = () => {
     return ( 
