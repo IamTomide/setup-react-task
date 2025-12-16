@@ -1,4 +1,4 @@
-import Button from "../../components/button/Button";
+import Button from "../Button/Button";
 import studentImg from '../../assets/images/student.jpg'
 
 const Introduction = () => {
