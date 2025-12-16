@@ -1,6 +1,6 @@
 import textCircle from '../../assets/images/text-circle.png'
 import FloatingImage  from '../floatingImages/FloatingImage'
-import Button from '../button/Button.jsx'
+import Button from '../../components/button/Button'
 import Title from '../title/Title'
 import './courses.css'
 

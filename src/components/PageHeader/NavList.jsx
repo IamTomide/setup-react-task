@@ -1,5 +1,5 @@
 import Logo from '../../assets/images/logo.svg?react'
-import Button from '../button/Button.jsx';
+import Button from '../../components/button/Button';
 
 const Navbar = () => {
     return ( 
