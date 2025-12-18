@@ -1,0 +1,110 @@
+.community{
+    margin-top: 238px;
+    background-image: url(../../assets/images/community-background.jpg);
+    position: relative;
+}
+
+.testimonial__heading{
+    padding-top: 205px;
+    text-align: center;
+}
+
+.testimonial__heading h4{
+    margin: 24.25px auto;
+    width: 45%;
+}
+.community__stats{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../../assets/images/stats-bg.png);
+    background-repeat: no-repeat;
+    background-color: #FFD25D;
+    padding: 55px 82.61px 55px 70px;
+    border-radius: 200px;
+    position: absolute;
+    top: -104px;
+    margin-left: 10px;
+    width: 1320px;
+}
+.stats__desc h6{
+    margin: 0;
+    margin-bottom: 15px;
+    font-family: "Epilogue", sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 39px;
+    line-height: 39px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    text-transform: capitalize;
+    color: #0E2A46;
+}
+.stats__desc p{
+    margin: 0;
+    color:#0E2A46;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 17px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    text-transform: capitalize;
+}
+.stats__desc{
+    display: flex;
+    align-items: center;
+}
+.stats__desc__icon{
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 39px;
+    margin-right: 20px;
+}
+.testimonial{
+    padding-bottom: 171.5px;
+    box-sizing: content-box;
+    overflow: hidden;
+    position: relative;
+}
+.testimonial__container{
+    margin-top: 54.3px auto 0;
+    width: 100vh;
+    display: flex;
+    gap: 50px;
+    padding: 0 10px;
+    margin-left: -400px;
+}
+.testimonial__card{
+    padding: 30.34px 57.29px 31.5px 31px;    
+    border: solid 1px #17254E;
+    border-radius: 20px;
+    flex: 0 0 406.66px;
+}
+.testimony{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 32.3px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #17254E;
+}
+.testimonial__card h6{
+    font-family: "Epilogue", sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: var(--text-color-primary);
+    margin: 0;
+}
+.recipient{
+    color: #704FE6;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+
+}

@@ -10,7 +10,7 @@ import servicesDots from '../../assets/images/services-dots.png'
 const QualityOfService = () => {
     return ( 
         <section className="services__section container">
-             <FloatingImage src={textCircle} style={{top: '360.3px', left: '253.33px', width: "168px", height: '65px'}} />
+             <FloatingImage src={textCircle} style={{top: '380.3px', left: '253.33px', width: "168px", height: '65px'}} />
             <ServicesInfo />
             <div className='services__img'>
                 <img src={servicesImg} alt="" className='services__img1'/>

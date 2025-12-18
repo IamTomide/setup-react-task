@@ -1,6 +1,6 @@
 .services__section{
     display: flex;
-    margin-top: 270px;
+    margin-top: 255px;
     align-items: center;
     padding-top: 214.55px;
     gap: 80px;
@@ -9,7 +9,7 @@
 .services__info{ 
     width: 49%;
     padding-left: 12px;
-    margin-top: 30px;
+    margin-top: -10px;
 }
 .services__info h4{
     margin-bottom: 29.34px;
@@ -29,11 +29,21 @@
 .services__img{
     position: relative;
     width: 45%;
+    margin-top: 15px;
 }
 .benefits__card__desc{
     padding: 30px 20px;
     background-color: #E9E2FF;
     border-radius: 8px;
+}
+.services__info p{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 32.3px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #333931;
+    margin-bottom: 0;
 }
 .benefits__card__desc div{
     display: flex;
@@ -49,6 +59,14 @@
     letter-spacing: 0%;
     text-transform: capitalize;
     color: var(--text-primary-color);
+}
+.benefits__card__desc p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #4D5756;
 }
 .services__list{
     display: grid;
