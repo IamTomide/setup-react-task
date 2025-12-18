@@ -5,8 +5,6 @@
     background-size: cover;
 }
 .top__courses{
-    width: 1350px;
-    margin: 0 auto;
     position: relative;
     padding: 120px 15px;
 }
@@ -87,7 +85,7 @@
     text-transform: capitalize;
     color: var(--primary-color);
 }
-h6 {
+.course__card h6 {
     margin-top: 9.5px;
     font-family: "Epilogue", sans-serif;
     font-weight: 600;

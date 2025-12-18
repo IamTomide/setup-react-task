@@ -1,0 +1,136 @@
+.about__us{
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: #333931;
+    background-color: #ffffff;
+}
+.about__us__images{
+    width: 47%;
+}
+.about__us__images img{
+    position: absolute;
+}
+.about__us__images .img1{
+    top: 33px;
+    left: 234.2px;
+}
+.about__us__images .img2{
+    top: 91.42px;
+    left: 555.08px;
+}
+.about__us__images .img3{
+    top: 40.03px;
+    left: 616.59px;
+}
+.about__us__images .img4{
+    top: 333px;
+    left: 311.5px;
+}
+.about__us__info{
+    position: relative;
+    width: 56%;
+    padding: 272.7px 299.17px 0 73px;
+}
+.about__us__info__sub{
+    display: flex;
+    justify-content: space-between;
+}
+.about__us__info h4{
+    margin-bottom: 0;
+}
+.about__us__info h6{
+    margin: 0;
+    margin-top: 9px;
+    font-family: "Epilogue", sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 17px;
+    line-height: 18.7px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    text-transform: uppercase;
+
+}
+.lorem__text, .lorem__text2{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 32.3px;
+    letter-spacing: 0%;
+    padding-top: 4.35px;
+    vertical-align: middle;
+}
+.lorem__text2{
+    margin-top: 8.34px;
+    margin-bottom: 31px;
+    padding: 0;
+    line-height: 32px;
+}
+.about__us__info__sub div{
+    width: 49.5%;
+}
+.about__us__experiences{
+    position: absolute;
+    width: 244px;
+    height: 236.54px;
+    background-color: #FFD25D;
+    border: solid 5px #FFFFFF;
+    border-radius: 122px;
+    top: 283.97px;
+    left: 446.2px;
+    text-align: center;
+    color: #333931;
+    padding: 10px 0;
+}
+.about__us__experiences .years{
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 50px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 0;
+}
+.about__us__experiences .years_text{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 36px;
+    letter-spacing: 0%;
+    margin-top: 11.5px;
+    text-transform: capitalize;
+}
+.about__us__join{
+    margin-top: 272.72px;
+    background-image: url("../../assets/images/join.jpg");
+    height: 176px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: #0e2a46;
+    opacity: 85%;
+    padding: 100px 291.5px 44px;
+    background-blend-mode: multiply;
+    overflow-y: hidden;
+    position: relative;
+}
+.about__us__join p{
+    color: #FFD25D;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 32px;
+    margin-bottom: 0;
+}
+.about__us__join h3{
+    font-family: "Epilogue", sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+.about__us__join img{
+    position: absolute;
+    top: 143px;
+    left: 970.52px;
+}

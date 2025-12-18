@@ -6,7 +6,7 @@ import CourseHeader from './CourseHeader'
 const TopCourses = () => {
     return ( 
         <section className="courses">
-            <div className="top__courses">
+            <div className="top__courses container">
                <CourseHeader />
                 <ul className='courses__list'>
                     {courses.map(course => {

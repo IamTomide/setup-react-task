@@ -5,8 +5,9 @@ import Title from '../title/Title';
 
 const Category = () => {
     return ( 
-        <section className="category">
-            <Title title="categories"/>
+        <section className="category container">
+
+                <Title title="categories"/>
             <h4>Browse by categories</h4>
             <ul className="category__list">
                 {categories.map((category) => {

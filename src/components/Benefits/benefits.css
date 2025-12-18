@@ -1,0 +1,80 @@
+.services__section{
+    display: flex;
+    margin-top: 270px;
+    align-items: center;
+    padding-top: 214.55px;
+    gap: 80px;
+    position: relative;
+}
+.services__info{ 
+    width: 49%;
+    padding-left: 12px;
+    margin-top: 30px;
+}
+.services__info h4{
+    margin-bottom: 29.34px;
+}
+.services__info p{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 32.3px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #333931;
+}
+.wavy__lines{
+    float: right;
+    margin-right: 95px;
+}
+.services__img{
+    position: relative;
+    width: 45%;
+}
+.benefits__card__desc{
+    padding: 30px 20px;
+    background-color: #E9E2FF;
+    border-radius: 8px;
+}
+.benefits__card__desc div{
+    display: flex;
+    align-items: center;
+}
+.benefits__card__desc h6{
+    margin: 0;
+    margin-left: 9.6px;
+    font-family: "Epilogue";
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    color: var(--text-primary-color);
+}
+.services__list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 31.64px;
+    gap: 20px;
+    padding-right: 45px;
+}
+.services__img1{
+    position: relative;
+    border: solid 10px #FFFFFF;
+    z-index: 10;
+}
+.yellow__edge{
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    z-index: 0;
+}
+.yellow__edge2{
+    position: absolute;
+    bottom: -15px;
+    right: 35px;
+}
+.service__dots{
+    position: absolute;
+    top: -70px;
+    right: -20px;
+}
