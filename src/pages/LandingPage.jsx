@@ -5,7 +5,7 @@ import CommunitySection from "../components/Community/Community";
 import TopCourses from "../components/CoursesSection/Courses";
 import Footer from "../components/Footer/Footer";
 import Instructors from "../components/Instructors/Instructors";
-import Newsletter from "../components/newsletter/newsletter";
+import Newsletter from "../components/Newsletter/Newsletter";
 import PageHeader from "../components/PageHeader/PageHeader";
 import Welcome from "../components/WelcomeSection/Welcome";
 
