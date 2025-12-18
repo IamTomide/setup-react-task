@@ -63,8 +63,9 @@
 .testimonial{
     padding-bottom: 171.5px;
     box-sizing: content-box;
-    overflow: hidden;
+    overflow-x: hidden;
     position: relative;
+   
 }
 .testimonial__container{
     margin-top: 54.3px auto 0;
@@ -72,13 +73,20 @@
     display: flex;
     gap: 50px;
     padding: 0 10px;
-    margin-left: -400px;
+    margin-left: -410px;
 }
 .testimonial__card{
     padding: 30.34px 57.29px 31.5px 31px;    
     border: solid 1px #17254E;
     border-radius: 20px;
     flex: 0 0 406.66px;
+    position: relative;
+    margin-top: 30px;
+}
+.quotes{
+    position: absolute;
+    top: -30px;
+    left: -20px;
 }
 .testimony{
     font-weight: 400;

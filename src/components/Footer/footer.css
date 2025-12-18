@@ -1,0 +1,18 @@
+footer{
+    margin-top: 135px;
+    background-image: url("../../assets/images/footer-bg.jpg");
+    padding: 25px;
+}
+.footer__container{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__container div{
+    flex: 1;
+}
+.footer__gallery{
+    display: grid;
+    grid-template-columns: 85.66px 85.66px 85.66px;
+    gap: 10px;
+}
