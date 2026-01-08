@@ -12,16 +12,19 @@ const Newsletter = () => {
             <FloatingImage src={bottomCurve} style={{bottom: "0", right: "0"}}/>
             <FloatingImage src={whitePrint} style={{top: "215px", left: "150px"}}/>
             <FloatingImage src={whiteCawprint} style={{top: "15px", right: "150px"}}/>
-            <div className="newsletter__info">
-                <h5>Join our newsletter</h5>
-                <p>Subscribe our newsletter to get our latest update & news.</p>
-            </div>
+            <div className="newsletter__container">
+                <div className="newsletter__info">
+                    <h5>Join our newsletter</h5>
+                    <p>Subscribe our newsletter to get our latest update & news.</p>
+                </div>
             
-            <div className="newsletter__form">
-                <input type="email" name="email" id="email" placeholder='Enter Your Email' />
-                <p>Subscribe Now</p>
+                <div className="newsletter__form">
+                    <input type="email" name="email" id="email" placeholder='Enter Your Email' />
+                    <p>Subscribe Now</p>
+                </div>
             </div>
         </div>
+
      );
 }
  

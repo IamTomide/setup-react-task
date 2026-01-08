@@ -1,11 +1,15 @@
 .newsletter{
     background-color: var(--primary-color);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     padding: 91px 291.5px;
     color: #ffffff;
     position: relative;
+}
+.newsletter__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1903px;
+    margin: 0 auto;
 }
 .newsletter__info h5{
     font-family: "Epilogue", sans-serif;
