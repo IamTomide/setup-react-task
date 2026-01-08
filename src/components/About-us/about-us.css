@@ -4,6 +4,8 @@
     align-items: center;
     color: #333931;
     background-color: #ffffff;
+    max-width: 1903px;
+    margin: 0 auto;
 }
 .about__us__images{
     width: 47%;

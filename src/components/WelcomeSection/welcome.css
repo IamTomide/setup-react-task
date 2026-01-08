@@ -1,8 +1,13 @@
 .introduction{
     background-image: url(../../assets/images/wavy-bg.png);
     height: 670px;
+    margin: 0 auto;
     margin-top: 17px;
+}
+.intro-container{
     position: relative;
+    max-width: 1903px;
+    margin: 0 auto;
 }
 .welcome{
     display: flex;
