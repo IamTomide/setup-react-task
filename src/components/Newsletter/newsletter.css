@@ -4,7 +4,7 @@
     color: #ffffff;
     position: relative;
 }
-.newsletter__container{
+.newsletter__div{
     display: flex;
     align-items: center;
     justify-content: space-between;

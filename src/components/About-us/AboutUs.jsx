@@ -15,9 +15,12 @@ const AboutUs = () => {
                 <AboutUsInfo />
             </section>
             <div className="about__us__join">
+                <div className="container">
                     <p>Join our new session</p>
                     <h3>Call To Enroll Your Child</h3>
                     <img src={whiteStar} alt="A white star" />
+                </div>
+
             </div>
         </>
         

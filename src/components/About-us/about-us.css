@@ -111,7 +111,7 @@
     opacity: 85%;
     padding: 100px 291.5px 44px;
     background-blend-mode: multiply;
-    overflow-y: hidden;
+    overflow: hidden;
     position: relative;
 }
 .about__us__join p{
