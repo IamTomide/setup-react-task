@@ -101,38 +101,3 @@
     margin-top: 11.5px;
     text-transform: capitalize;
 }
-.about__us__join{
-    margin-top: 272.72px;
-    background-image: url("../../assets/images/join.jpg");
-    height: 176px;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-color: #0e2a46;
-    opacity: 85%;
-    padding: 100px 291.5px 44px;
-    background-blend-mode: multiply;
-    overflow: hidden;
-    position: relative;
-}
-.about__us__join p{
-    color: #FFD25D;
-    text-transform: capitalize;
-    font-weight: 600;
-    font-size: 23px;
-    line-height: 32px;
-    margin-bottom: 0;
-}
-.about__us__join h3{
-    font-family: "Epilogue", sans-serif;
-    font-weight: 600;
-    font-size: 60px;
-    line-height: 72px;
-    letter-spacing: 0%;
-    color: #FFFFFF;
-    margin-top: 10px;
-}
-.about__us__join img{
-    position: absolute;
-    top: 143px;
-    left: 970.52px;
-}

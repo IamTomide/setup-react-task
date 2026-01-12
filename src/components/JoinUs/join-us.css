@@ -1,0 +1,53 @@
+.join__us{
+    margin-top: 272.72px;
+    background-image: url("../../assets/images/join.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: #0e2a46;
+    opacity: 85%;
+    padding: 100px 291.5px 44px;
+    background-blend-mode: multiply;
+    position: relative;
+}
+.join__us__info{
+    position: relative;
+}
+.join__us p{
+    color: #FFD25D;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 32px;
+    margin-bottom: 0;
+}
+.join__us h3{
+    font-family: "Epilogue", sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.join__us img{
+    position: absolute;
+    top: 43px;
+    left: 679.02px;
+}
+.join__us a{
+    font-family: "Epilogue", sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    text-decoration: none;
+    color: #ffffff;
+}
+.watch__now{
+    position: absolute;
+    top: 66px;
+    left: 1069.67px;
+}
+
